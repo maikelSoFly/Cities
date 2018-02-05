@@ -2,10 +2,9 @@
 using System.Data;
 using System.Data.OleDb;
 
-namespace Cities_console
-{
-    public class DatabaseConnection
-    {
+namespace Cities_console {
+    public class DatabaseConnection {
+        
         private String connectionString;
         private String dbProvider;
         private String dataSourcePath;
@@ -53,8 +52,7 @@ namespace Cities_console
             OleDbCommand cmd = new OleDbCommand();
             cmd.CommandText = queryCommand;
 
-            try
-            {
+            try {
                 OleDbDataReader reader = cmd.ExecuteReader(CommandBehavior.CloseConnection);
 
                 DataTable table = new DataTable();
@@ -67,6 +65,5 @@ namespace Cities_console
 
             return null;
         }
-
     }
 }

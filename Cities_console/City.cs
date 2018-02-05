@@ -1,22 +1,23 @@
 ﻿using System;
-namespace Cities_console
-{
-    public class City
-    {
+
+namespace Cities_console {
+    public class City {
+        
         private String name;
         private int uid;
         private Double longitude;
         private Double latitude;
         private Region region;
 
-        public City(String name, int uid, Double lon, Double lat, Region region)
-        {
+
+        public City(String name, int uid, Double lon, Double lat, Region region) {
             this.name = name;
             this.uid = uid;
             this.longitude = lon;
             this.latitude = lat;
             this.region = region;
         }
+
 
         public int getUID() {
             return uid;
@@ -30,13 +31,11 @@ namespace Cities_console
             return name;
         }
 
-        public Double getLongitude()
-        {
+        public Double getLongitude() {
             return longitude;
         }
 
-        public Double getLatitude()
-        {
+        public Double getLatitude() {
             return latitude;
         }
 
