@@ -66,7 +66,7 @@ namespace Cities_console
 
                 try
                 {
-                    OleDbDataReader reader = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+                    OleDbDataReader reader = cmd.ExecuteReader();
 
                     DataTable table = new DataTable();
                     table.Load(reader);
