@@ -39,7 +39,8 @@ namespace Cities_console
             {
                 return regions[id];
             }
-            else return null;
+
+            return null;
         }
 
         public List<City> getCities()
@@ -58,6 +59,7 @@ namespace Cities_console
             {
                 return citiesByRegion[uid];
             }
+
             return null;
         }
     }

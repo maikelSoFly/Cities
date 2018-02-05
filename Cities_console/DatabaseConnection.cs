@@ -38,6 +38,7 @@ namespace Cities_console
             try
             {
                 conn.Open();
+
                 return true;
             }
             catch (Exception e)
@@ -60,7 +61,6 @@ namespace Cities_console
         {
             if (conn.State == ConnectionState.Open)
             {
-
                 OleDbCommand cmd = conn.CreateCommand();
                 cmd.CommandText = queryCommand;
 
@@ -77,7 +77,6 @@ namespace Cities_console
                 {
                     Console.WriteLine("Execution of command FAILED." + e.Message);
                 }
-
             }
             else
             {
