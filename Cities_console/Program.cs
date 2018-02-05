@@ -50,13 +50,14 @@ namespace Cities_console
                 //TODO do smth with cities and regions in 'data'.
                 //Searching for cities in the given region.
 
-                int regID = 0;
-                while (regID == 0) {
-                    regID = ReadLine<int>("Region id: ");    
+                List<City> citiesOfRegion = null;
+
+                while (citiesOfRegion == null)
+                {
+                    int regID = ReadLine<int>("Region id: ");
+                    citiesOfRegion = data.getCitiesForRegion(regID);
                 }
 
-
-                List<City> citiesOfRegion = data.getCitiesForRegion(regID);
                 int i = 0;
                 foreach (City city in citiesOfRegion)
                 {
