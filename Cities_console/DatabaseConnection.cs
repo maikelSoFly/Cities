@@ -2,10 +2,9 @@
 using System.Data;
 using System.Data.OleDb;
 
-namespace Cities_console
-{
-    public class DatabaseConnection
-    {
+namespace Cities_console {
+    
+    public class DatabaseConnection {
 
         private String connectionString;
         private String dbProvider;
@@ -18,8 +17,7 @@ namespace Cities_console
         public DatabaseConnection(String sourcePath,
                                   String password,
                                   String provider = "Microsoft.Jet.OLEDB.4.0",
-                                  String securityInfo = "True")
-        {
+                                  String securityInfo = "True") {
             this.dataSourcePath = sourcePath;
             this.password = password;
             this.dbProvider = provider;
@@ -34,22 +32,17 @@ namespace Cities_console
         }
 
 
-        public Boolean Connect()
-        {
-            try
-            {
+        public Boolean Connect() {
+            try {
                 conn.Open();
 
                 return true;
             }
-            catch (Exception e)
-            {
-                if (e is InvalidOperationException)
-                {
+            catch (Exception e) {
+                if (e is InvalidOperationException) {
                     Console.WriteLine("Connection FAILED after opening.\n\t" + e.Message);
                 }
-                else if (e is OleDbException)
-                {
+                else if (e is OleDbException) {
                     Console.WriteLine("Opening connection FAILED.\n\t" + e.Message);
                 }
             }
@@ -58,15 +51,12 @@ namespace Cities_console
         }
 
 
-        public DataTable Execute(String queryCommand)
-        {
-            if (conn.State == ConnectionState.Open)
-            {
+        public DataTable Execute(String queryCommand) {
+            if (conn.State == ConnectionState.Open) {
                 OleDbCommand cmd = conn.CreateCommand();
                 cmd.CommandText = queryCommand;
 
-                try
-                {
+                try {
                     OleDbDataReader reader = cmd.ExecuteReader();
 
                     DataTable table = new DataTable();
@@ -74,13 +64,11 @@ namespace Cities_console
 
                     return table;
                 }
-                catch (Exception e)
-                {
+                catch (Exception e) {
                     Console.WriteLine("Execution of command FAILED." + e.Message);
                 }
             }
-            else
-            {
+            else {
                 Console.WriteLine("Connection is not opened.");
             }
 

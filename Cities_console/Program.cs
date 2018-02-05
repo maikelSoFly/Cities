@@ -3,19 +3,17 @@ using System.Data;
 using System.Collections.Generic;
 
 
-namespace Cities_console
-{
-    class MainClass
-    {
-        public static void Main(string[] args)
-        {
+namespace Cities_console {
+    
+    class MainClass {
+        
+        public static void Main(string[] args) {
             Data data = new Data();
             String path = "./db/Miasta.mdb";
             String password = "";
 
             DatabaseConnection dbConn = new DatabaseConnection(path, password);
-            if (dbConn.Connect())
-            {
+            if (dbConn.Connect()) {
                 Console.WriteLine("DB connection established.");
 
                 Console.WriteLine("User tables:");
@@ -23,10 +21,8 @@ namespace Cities_console
 
                 //MARK: - Parse regions from DB.
                 DataTable regionsTable = dbConn.Execute("SELECT * FROM regions");
-                if (regionsTable != null)
-                {
-                    foreach (DataRow row in regionsTable.Rows)
-                    {
+                if (regionsTable != null) {
+                    foreach (DataRow row in regionsTable.Rows) {
                         int regionID = (int)row["ID"];
                         String name = row["Wojewodztwo"].ToString();
                         Region region = new Region(name, regionID);
@@ -36,10 +32,8 @@ namespace Cities_console
 
                 //MARK: - Parse cities from DB.
                 DataTable citiesTable = dbConn.Execute("SELECT * FROM city");
-                if (citiesTable != null)
-                {
-                    foreach (DataRow row in citiesTable.Rows)
-                    {
+                if (citiesTable != null) {
+                    foreach (DataRow row in citiesTable.Rows) {
                         int cityID = (int)row["ID"];
                         String name = row["Miasto"].ToString();
                         Double lon = (Double)row["Dl"];
@@ -50,6 +44,7 @@ namespace Cities_console
                         data.addCity(city);
                     }
                 }
+
 
                 //FIXME: - For tests only.
                 //Region reg1 = new Region("Małopolskie", 1);
@@ -62,43 +57,42 @@ namespace Cities_console
 
                 
                 Console.WriteLine(String.Format("All regions:"));
-                foreach (KeyValuePair<int, Region> pair in data.getRegions())
-                {
+                foreach (KeyValuePair<int, Region> pair in data.getRegions()) {
                     Console.WriteLine(String.Format("\t{0}. {1}", pair.Key, pair.Value.getName()));
                 }
 
 
-                //TODO do smth with cities and regions in 'data'.
-                //Searching for cities in the given region.
+                if(data.getRegions().Count != 0 && data.getCities().Count != 0) {
+                    List<City> citiesOfRegion = null;
+                    int regID = 0;
 
-                List<City> citiesOfRegion = null;
-                int regID = 0;
+                    while (citiesOfRegion == null) {
+                        regID = ReadLine<int>("\nRegion id: ");
+                        citiesOfRegion = data.getCitiesForRegion(regID);
+                    }
 
-                while (citiesOfRegion == null)
-                {
-                    regID = ReadLine<int>("\nRegion id: ");
-                    citiesOfRegion = data.getCitiesForRegion(regID);
+                    Console.WriteLine(String.Format("\nRegion {0}:", data.getRegion(regID).getName()));
+                    int i = 0;
+                    foreach (City city in citiesOfRegion) {
+                        i++;
+                        Console.WriteLine(String.Format("\t{0}. {1}", i, city.getName()));
+                    }
+
+                    int selectedCityIndex = 0;
+                    while (!(selectedCityIndex > 0 && selectedCityIndex <= citiesOfRegion.Count)) {
+                        selectedCityIndex = ReadLine<int>("\nSelect city (int): ");
+                    }
+
+                    City selectedCity = citiesOfRegion[selectedCityIndex - 1];
+                    Console.WriteLine(String.Format("\nName: {0}, Longitude: {1}, Latitude: {2}, Region: {3}",
+                                                    selectedCity.getName(),
+                                                    selectedCity.getLongitude(),
+                                                    selectedCity.getLatitude(),
+                                                    selectedCity.getRegion().getName()));
                 }
-
-                Console.WriteLine(String.Format("\nRegion {0}:", data.getRegion(regID).getName()));
-                int i = 0;
-                foreach (City city in citiesOfRegion)
-                {
-                    i++;
-                    Console.WriteLine(String.Format("\t{0}. {1}", i, city.getName()));
+                else {
+                    Console.WriteLine("No data in cache.");
                 }
-
-                int selectedCityIndex = 0;
-                while (!(selectedCityIndex > 0 && selectedCityIndex <= citiesOfRegion.Count)) {
-                    selectedCityIndex = ReadLine<int>("\nSelect city (int): ");
-                }
-
-                City selectedCity = citiesOfRegion[selectedCityIndex-1];
-                Console.WriteLine(String.Format("\nName: {0}, Longitude: {1}, Latitude: {2}, Region: {3}", 
-                                                selectedCity.getName(), 
-                                                selectedCity.getLongitude(), 
-                                                selectedCity.getLatitude(), 
-                                                selectedCity.getRegion().getName()));
             }
 
             Console.ReadKey();
@@ -107,22 +101,21 @@ namespace Cities_console
 
         //Read from stdin and cast to specified type.
         //  message - print info message about expected input.
-        static T ReadLine<T>(String message)
-        {
+        static T ReadLine<T>(String message) {
             Console.WriteLine(message);
-            try
-            {
+            try {
                 string line = Console.ReadLine();
                 T convertedValue = (T)Convert.ChangeType(line, typeof(T));
 
                 return convertedValue;
             }
-            catch (Exception e)
-            {
+            catch (Exception e) {
                 Console.WriteLine(e.Message);
             }
 
             return default(T);
         }
+
     }
+
 }
