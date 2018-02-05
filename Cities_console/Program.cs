@@ -62,6 +62,8 @@ namespace Cities_console
             }
         }
 
+        //Read from stdin and cast to specified type.
+        //  message - print info message about expected input.
         static T ReadLine<T>(String message)
         {
             Console.WriteLine(message);
@@ -84,5 +86,3 @@ namespace Cities_console
         }
     }
 }
-
-
