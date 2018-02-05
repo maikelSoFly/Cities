@@ -86,5 +86,15 @@ namespace Cities_console
 
             return null;
         }
+
+        public void PrintUserTables() {
+            string[] restrictions = new string[4];
+            restrictions[3] = "Table";
+
+            DataTable userTables = conn.GetSchema("Tables", restrictions);
+
+            for (int i = 0; i < userTables.Rows.Count; i++)
+                Console.WriteLine("\t" + userTables.Rows[i][2]);
+        }
     }
 }

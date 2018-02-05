@@ -18,6 +18,9 @@ namespace Cities_console
             {
                 Console.WriteLine("DB connection established.");
 
+                Console.WriteLine("User tables:");
+                dbConn.PrintUserTables();
+
                 //MARK: - Parse regions from DB.
                 DataTable regionsTable = dbConn.Execute("SELECT * FROM `regions`");
                 if (regionsTable != null)
@@ -97,6 +100,8 @@ namespace Cities_console
                                                 selectedCity.getLatitude(), 
                                                 selectedCity.getRegion().getName()));
             }
+
+            Console.ReadKey();
         }
 
 
