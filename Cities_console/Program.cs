@@ -22,7 +22,7 @@ namespace Cities_console
                 dbConn.PrintUserTables();
 
                 //MARK: - Parse regions from DB.
-                DataTable regionsTable = dbConn.Execute("SELECT * FROM `regions`");
+                DataTable regionsTable = dbConn.Execute("SELECT * FROM regions");
                 if (regionsTable != null)
                 {
                     foreach (DataRow row in regionsTable.Rows)
@@ -35,7 +35,7 @@ namespace Cities_console
                 }
 
                 //MARK: - Parse cities from DB.
-                DataTable citiesTable = dbConn.Execute("SELECT * FROM `city`");
+                DataTable citiesTable = dbConn.Execute("SELECT * FROM city");
                 if (citiesTable != null)
                 {
                     foreach (DataRow row in citiesTable.Rows)
