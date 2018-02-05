@@ -41,7 +41,7 @@ namespace Cities_console {
                 }
 
                 //TODO do smth with cities and regions in 'data'.
-                //Searching for cities in given region.
+                //Searching for cities in the given region.
                 int userGivenRegionID = 3;
                 List<City> citiesOfRegion = data.getCitiesForRegion(userGivenRegionID);
                 foreach(City city in citiesOfRegion) {
