@@ -36,6 +36,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DatabaseConnection.cs" />
+    <Compile Include="Region.cs" />
+    <Compile Include="City.cs" />
+    <Compile Include="Data.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
