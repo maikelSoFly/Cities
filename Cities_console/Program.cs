@@ -50,17 +50,29 @@ namespace Cities_console
                 //TODO do smth with cities and regions in 'data'.
                 //Searching for cities in the given region.
 
-                int regID = ReadLine<int>("Region id: ");
+                int regID = 0;
+                while (regID == 0) {
+                    regID = ReadLine<int>("Region id: ");    
+                }
+
 
                 List<City> citiesOfRegion = data.getCitiesForRegion(regID);
                 int i = 0;
                 foreach (City city in citiesOfRegion)
                 {
+                    Console.WriteLine(String.Format("\t{0}. {1}", i, city.getName()));
                     i++;
-                    Console.WriteLine(String.Format("{0}. {1}", i, city.getName()));
                 }
+
+                int selectedCityIndex = 0;
+                while (selectedCityIndex > 0 && selectedCityIndex <= citiesOfRegion.Count) {
+                    selectedCityIndex = ReadLine<int>("Select region (int): ");
+                }
+
+                City selectedCity = citiesOfRegion[selectedCityIndex-1];
             }
         }
+
 
         //Read from stdin and cast to specified type.
         //  message - print info message about expected input.
@@ -76,10 +88,7 @@ namespace Cities_console
             }
             catch (Exception e)
             {
-                if (e is FormatException)
-                {
-                    Console.WriteLine();
-                }
+                Console.WriteLine(e.Message);
             }
 
             return default(T);
