@@ -13,15 +13,15 @@ namespace Cities_console
             String path = "./db/Miasta.mdb";
 
             DatabaseConnection dbConn = new DatabaseConnection(path, "");
-            if (dbConn.connect()) {
+            if (dbConn.Connect()) {
                 Console.WriteLine("DB connection established.");
 
-                DataTable table = dbConn.execute("SELECT * FROM `myTable`");
-                if(table != null) {
+                DataTable table = dbConn.Execute("SELECT * FROM `myTable`");
+                if (table != null)
+                {
                     // Do smth with table...
                     Console.WriteLine(table.ToString());
                 }
-
             }
 
         }

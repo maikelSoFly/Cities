@@ -31,20 +31,25 @@ namespace Cities_console
         }
 
 
-        public Boolean connect() {
+        public Boolean Connect() {
             try {
                 conn.Open();
                 return true;
             }
             catch(Exception e) {
-                Console.WriteLine("OleDB connection FAILED.\n\t" + e.Message);
+                if(e is InvalidOperationException) {
+                    Console.WriteLine("Connection is already opened.\n\t" + e.Message);
+                }
+                else if(e is OleDbException) {
+                    Console.WriteLine("Opening connection FAILED.\n\t" + e.Message);
+                } 
             }
 
             return false;
         }
 
 
-        public DataTable execute(String queryCommand) {
+        public DataTable Execute(String queryCommand) {
             OleDbCommand cmd = new OleDbCommand();
             cmd.CommandText = queryCommand;
 
