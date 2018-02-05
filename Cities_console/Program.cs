@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Data;
 using System.Collections.Generic;
+using System.IO;
 
 
 namespace Cities_console
 {
     class MainClass
     {
-
         public static void Main(string[] args)
         {
             Data data = new Data();
@@ -49,15 +49,40 @@ namespace Cities_console
 
                 //TODO do smth with cities and regions in 'data'.
                 //Searching for cities in the given region.
-                int userGivenRegionID = 3;
-                List<City> citiesOfRegion = data.getCitiesForRegion(userGivenRegionID);
+
+                int regID = ReadLine<int>("Region id: ");
+
+                List<City> citiesOfRegion = data.getCitiesForRegion(regID);
+                int i = 0;
                 foreach (City city in citiesOfRegion)
                 {
-                    Console.WriteLine(city.getName());
+                    i++;
+                    Console.WriteLine(String.Format("{0}. {1}", i, city.getName()));
                 }
-
-
             }
+        }
+
+        static T ReadLine<T>(String message)
+        {
+            Console.WriteLine(message);
+            try
+            {
+                string line = Console.ReadLine();
+                T convertedValue = (T)Convert.ChangeType(line, typeof(T));
+
+                return convertedValue;
+            }
+            catch (Exception e)
+            {
+                if (e is FormatException)
+                {
+                    Console.WriteLine();
+                }
+            }
+
+            return default(T);
         }
     }
 }
+
+
