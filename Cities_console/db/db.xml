@@ -1,0 +1,440 @@
+<row ID="1" Miasto="Aleksandrów Kujawski" Dl="52.880" Szer="18.700" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="2" Miasto="Aleksandrów £ódzki" Dl="51.820" Szer="19.299" ID_woj="5" Wojewodztwo="£ódzkie" />
+<row ID="3" Miasto="Andrychów" Dl="49.860" Szer="19.339" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="4" Miasto="Augustów" Dl="53.839" Szer="23.000" ID_woj="10" Wojewodztwo="Podlaskie" />
+<row ID="5" Miasto="Barlinek" Dl="52.999" Szer="15.199" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="6" Miasto="Bartoszyce" Dl="54.249" Szer="20.809" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="7" Miasto="Bêdzin" Dl="50.340" Szer="19.129" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="8" Miasto="Be³chatów" Dl="51.369" Szer="19.360" ID_woj="5" Wojewodztwo="£ódzkie" />
+<row ID="9" Miasto="Bia³a Podlaska" Dl="52.039" Szer="23.110" ID_woj="3" Wojewodztwo="Lubelskie" />
+<row ID="10" Miasto="Bia³ogard" Dl="54.009" Szer="15.979" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="11" Miasto="Bia³ystok" Dl="53.139" Szer="23.159" ID_woj="10" Wojewodztwo="Podlaskie" />
+<row ID="12" Miasto="Bielawa" Dl="50.689" Szer="16.610" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="13" Miasto="Bielsk Podlaski" Dl="52.780" Szer="23.290" ID_woj="10" Wojewodztwo="Podlaskie" />
+<row ID="14" Miasto="Bielsko-Bia³a" Dl="49.819" Szer="19.049" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="15" Miasto="Bieruñ" Dl="50.100" Szer="19.100" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="16" Miasto="Bi³goraj" Dl="50.539" Szer="22.729" ID_woj="3" Wojewodztwo="Lubelskie" />
+<row ID="17" Miasto="Biskupiec" Dl="53.870" Szer="20.950" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="18" Miasto="Blachownia" Dl="50.790" Szer="18.959" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="19" Miasto="B³onie" Dl="52.199" Szer="20.620" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="20" Miasto="Bochnia" Dl="49.979" Szer="20.429" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="21" Miasto="Bogatynia" Dl="50.919" Szer="14.960" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="22" Miasto="Boguszów-Gorce" Dl="50.760" Szer="16.189" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="23" Miasto="Boles³awiec" Dl="51.259" Szer="15.560" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="24" Miasto="Braniewo" Dl="54.390" Szer="19.819" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="25" Miasto="Brodnica" Dl="53.259" Szer="19.399" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="26" Miasto="Brwinów" Dl="52.179" Szer="20.799" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="27" Miasto="Brzeg" Dl="50.849" Szer="17.470" ID_woj="8" Wojewodztwo="Opolskie" />
+<row ID="28" Miasto="Brzeg Dolny" Dl="51.270" Szer="16.739" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="29" Miasto="Brzesko" Dl="49.969" Szer="20.600" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="30" Miasto="Brzeszcze" Dl="49.990" Szer="19.149" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="31" Miasto="Brzeziny" Dl="51.809" Szer="19.749" ID_woj="5" Wojewodztwo="£ódzkie" />
+<row ID="32" Miasto="Bukowno" Dl="50.290" Szer="19.440" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="33" Miasto="Busko-Zdrój" Dl="50.479" Szer="20.719" ID_woj="13" Wojewodztwo="Œwiêtokrzyskie" />
+<row ID="34" Miasto="Bydgoszcz" Dl="53.120" Szer="18.010" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="35" Miasto="Bystrzyca K³odzka" Dl="50.299" Szer="16.639" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="36" Miasto="Bytom" Dl="50.349" Szer="18.909" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="37" Miasto="Bytów" Dl="54.179" Szer="17.470" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="38" Miasto="Che³m" Dl="51.139" Szer="23.490" ID_woj="3" Wojewodztwo="Lubelskie" />
+<row ID="39" Miasto="Che³mek" Dl="50.110" Szer="19.249" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="40" Miasto="Che³mno" Dl="53.350" Szer="18.429" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="41" Miasto="Che³m¿a" Dl="53.180" Szer="18.609" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="42" Miasto="Chodzie¿" Dl="52.989" Szer="16.910" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="43" Miasto="Chojnice" Dl="53.700" Szer="17.569" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="44" Miasto="Chojnów" Dl="51.280" Szer="15.930" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="45" Miasto="Chorzów" Dl="50.299" Szer="19.030" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="46" Miasto="Choszczno" Dl="53.180" Szer="15.400" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="47" Miasto="Chrzanów" Dl="50.139" Szer="19.399" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="48" Miasto="Ciechanów" Dl="52.880" Szer="20.620" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="49" Miasto="Ciechocinek" Dl="52.880" Szer="18.790" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="50" Miasto="Cieszyn" Dl="49.750" Szer="18.629" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="51" Miasto="Czarna Bia³ostocka" Dl="53.589" Szer="22.579" ID_woj="10" Wojewodztwo="Podlaskie" />
+<row ID="52" Miasto="Czarnków" Dl="52.910" Szer="16.549" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="53" Miasto="Czechowice-Dziedzice" Dl="49.910" Szer="19.020" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="54" Miasto="CzeladŸ" Dl="50.320" Szer="19.129" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="55" Miasto="Czersk" Dl="53.800" Szer="17.970" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="56" Miasto="Czerwionka-Leszczyny" Dl="50.170" Szer="18.680" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="57" Miasto="Czêstochowa" Dl="50.810" Szer="19.129" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="58" Miasto="Cz³uchów" Dl="53.670" Szer="17.350" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="59" Miasto="D¹browa Górnicza" Dl="50.330" Szer="19.180" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="60" Miasto="D¹browa Tarnowska" Dl="50.179" Szer="21.000" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="61" Miasto="Dar³owo" Dl="54.419" Szer="16.410" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="62" Miasto="Dêbica" Dl="50.060" Szer="21.420" ID_woj="9" Wojewodztwo="Podkarpackie" />
+<row ID="63" Miasto="Dêblin" Dl="51.569" Szer="21.830" ID_woj="3" Wojewodztwo="Lubelskie" />
+<row ID="64" Miasto="Dêbno" Dl="52.740" Szer="14.699" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="65" Miasto="Dobre Miasto" Dl="53.990" Szer="20.390" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="66" Miasto="Drawsko Pomorskie" Dl="53.529" Szer="15.800" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="67" Miasto="Drezdenko" Dl="52.829" Szer="15.829" ID_woj="4" Wojewodztwo="Lubuskie" />
+<row ID="68" Miasto="Dzia³dowo" Dl="53.229" Szer="20.180" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="69" Miasto="Dzier¿oniów" Dl="50.729" Szer="16.650" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="70" Miasto="Elbl¹g" Dl="54.179" Szer="19.399" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="71" Miasto="E³k" Dl="53.830" Szer="22.359" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="72" Miasto="Garwolin" Dl="51.909" Szer="21.620" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="73" Miasto="Gdañsk" Dl="54.360" Szer="18.639" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="74" Miasto="Gdynia" Dl="54.520" Szer="18.530" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="75" Miasto="Gi¿ycko" Dl="54.040" Szer="21.759" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="76" Miasto="Gliwice" Dl="50.310" Szer="18.669" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="77" Miasto="G³ogów" Dl="51.669" Szer="16.080" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="78" Miasto="G³owno" Dl="51.979" Szer="19.700" ID_woj="5" Wojewodztwo="£ódzkie" />
+<row ID="79" Miasto="Glubczyce" Dl="50.189" Szer="17.830" ID_woj="8" Wojewodztwo="Opolskie" />
+<row ID="80" Miasto="G³ucho³azy" Dl="50.320" Szer="17.370" ID_woj="8" Wojewodztwo="Opolskie" />
+<row ID="81" Miasto="Gniezno" Dl="52.530" Szer="17.610" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="82" Miasto="Go³dap" Dl="54.310" Szer="22.309" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="83" Miasto="Goleniów" Dl="53.570" Szer="14.819" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="84" Miasto="Golub-Dobrzyñ" Dl="53.110" Szer="19.040" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="85" Miasto="Góra" Dl="51.669" Szer="16.520" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="86" Miasto="Góra Kalwaria" Dl="51.990" Szer="21.209" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="87" Miasto="Gorlice" Dl="49.670" Szer="21.159" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="88" Miasto="Gorzów Wielkopolski" Dl="52.740" Szer="15.230" ID_woj="4" Wojewodztwo="Lubuskie" />
+<row ID="89" Miasto="Gostyñ" Dl="51.879" Szer="17.000" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="90" Miasto="Gostynin" Dl="53.430" Szer="19.430" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="91" Miasto="Grajewo" Dl="53.650" Szer="22.440" ID_woj="10" Wojewodztwo="Podlaskie" />
+<row ID="92" Miasto="Grodków" Dl="50.700" Szer="17.370" ID_woj="8" Wojewodztwo="Opolskie" />
+<row ID="93" Miasto="Grodzisk Mazowiecki" Dl="52.109" Szer="20.620" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="94" Miasto="Grodzisk Wielkopolski" Dl="52.230" Szer="16.360" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="95" Miasto="Grójec" Dl="51.879" Szer="20.859" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="96" Miasto="Grudzi¹dz" Dl="53.490" Szer="18.749" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="97" Miasto="Gryfice" Dl="53.919" Szer="15.190" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="98" Miasto="Gryfino" Dl="53.229" Szer="14.479" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="99" Miasto="Gubin" Dl="51.959" Szer="14.719" ID_woj="4" Wojewodztwo="Lubuskie" />
+<row ID="100" Miasto="Hajnówka" Dl="52.729" Szer="23.579" ID_woj="10" Wojewodztwo="Podlaskie" />
+<row ID="101" Miasto="Hrubieszów" Dl="50.810" Szer="23.889" ID_woj="3" Wojewodztwo="Lubelskie" />
+<row ID="102" Miasto="I³awa" Dl="53.589" Szer="19.560" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="103" Miasto="Inowroc³aw" Dl="52.780" Szer="18.249" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="104" Miasto="Janikowo" Dl="52.429" Szer="17.030" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="105" Miasto="Janów Lubelski" Dl="50.710" Szer="22.410" ID_woj="3" Wojewodztwo="Lubelskie" />
+<row ID="106" Miasto="Jarocin" Dl="51.979" Szer="17.499" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="107" Miasto="Jaros³aw" Dl="50.020" Szer="22.679" ID_woj="9" Wojewodztwo="Podkarpackie" />
+<row ID="108" Miasto="Jas³o" Dl="49.739" Szer="21.469" ID_woj="9" Wojewodztwo="Podkarpackie" />
+<row ID="109" Miasto="Jastrzêbie-Zdroj" Dl="49.990" Szer="18.590" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="110" Miasto="Jawor" Dl="51.060" Szer="16.200" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="111" Miasto="Jaworzno" Dl="50.209" Szer="19.270" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="112" Miasto="Jêdrzejow" Dl="50.650" Szer="20.299" ID_woj="13" Wojewodztwo="Œwiêtokrzyskie" />
+<row ID="113" Miasto="Jelcz-Laskowice" Dl="51.029" Szer="17.299" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="114" Miasto="Jelenia Góra" Dl="50.909" Szer="15.729" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="115" Miasto="Józefów" Dl="52.150" Szer="21.260" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="116" Miasto="Kalety" Dl="50.570" Szer="18.899" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="117" Miasto="Kalisz" Dl="51.770" Szer="18.100" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="118" Miasto="Kamieñ Pomorski" Dl="53.970" Szer="14.779" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="119" Miasto="Kamienna Góra" Dl="50.790" Szer="16.030" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="120" Miasto="Karczew" Dl="52.080" Szer="21.249" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="121" Miasto="Kartuzy" Dl="54.329" Szer="18.200" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="122" Miasto="Katowice" Dl="50.259" Szer="19.020" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="123" Miasto="Kêdzierzyn-KoŸle" Dl="50.340" Szer="18.209" ID_woj="8" Wojewodztwo="Opolskie" />
+<row ID="124" Miasto="Kêpno" Dl="51.280" Szer="18.000" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="125" Miasto="Kêtrzyn" Dl="54.079" Szer="21.370" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="126" Miasto="Kêty" Dl="49.870" Szer="19.219" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="127" Miasto="Kielce" Dl="50.889" Szer="20.649" ID_woj="13" Wojewodztwo="Œwiêtokrzyskie" />
+<row ID="128" Miasto="K³obuck" Dl="50.909" Szer="18.940" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="129" Miasto="K³odzko" Dl="50.439" Szer="16.659" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="130" Miasto="Kluczbork" Dl="50.980" Szer="18.209" ID_woj="8" Wojewodztwo="Opolskie" />
+<row ID="131" Miasto="Knurów" Dl="50.220" Szer="18.669" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="132" Miasto="Koby³ka" Dl="52.339" Szer="21.200" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="133" Miasto="Kolno" Dl="53.419" Szer="21.929" ID_woj="10" Wojewodztwo="Podlaskie" />
+<row ID="134" Miasto="Ko³o" Dl="52.199" Szer="18.639" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="135" Miasto="Ko³obrzeg" Dl="54.189" Szer="15.569" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="136" Miasto="Koluszki" Dl="51.750" Szer="19.819" ID_woj="5" Wojewodztwo="£ódzkie" />
+<row ID="137" Miasto="Konin" Dl="52.209" Szer="18.249" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="138" Miasto="Koñskie" Dl="51.200" Szer="20.399" ID_woj="13" Wojewodztwo="Œwiêtokrzyskie" />
+<row ID="139" Miasto="Konstancin-Jeziorna" Dl="52.099" Szer="21.110" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="140" Miasto="Konstantynów £ódzki" Dl="51.750" Szer="19.319" ID_woj="5" Wojewodztwo="£ódzkie" />
+<row ID="141" Miasto="Koronowo" Dl="53.310" Szer="17.929" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="142" Miasto="Koœcian" Dl="52.090" Szer="16.639" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="143" Miasto="Koscierzyna" Dl="54.130" Szer="17.970" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="144" Miasto="Kostrzyn" Dl="52.589" Szer="14.649" ID_woj="4" Wojewodztwo="Lubuskie" />
+<row ID="145" Miasto="Koszalin" Dl="54.189" Szer="16.180" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="146" Miasto="Kowary" Dl="50.799" Szer="15.829" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="147" Miasto="Kozienice" Dl="51.590" Szer="21.550" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="148" Miasto="Ko¿uchów" Dl="51.750" Szer="15.600" ID_woj="4" Wojewodztwo="Lubuskie" />
+<row ID="149" Miasto="Kraków" Dl="50.060" Szer="19.959" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="150" Miasto="Krapkowice" Dl="50.479" Szer="17.960" ID_woj="8" Wojewodztwo="Opolskie" />
+<row ID="151" Miasto="Krasnik" Dl="50.929" Szer="22.219" ID_woj="3" Wojewodztwo="Lubelskie" />
+<row ID="152" Miasto="Krasnystaw" Dl="50.990" Szer="23.179" ID_woj="3" Wojewodztwo="Lubelskie" />
+<row ID="153" Miasto="Krosno" Dl="49.700" Szer="21.759" ID_woj="9" Wojewodztwo="Podkarpackie" />
+<row ID="154" Miasto="Krosno Odrzañskie" Dl="52.060" Szer="15.100" ID_woj="4" Wojewodztwo="Lubuskie" />
+<row ID="155" Miasto="Krotoszyn" Dl="51.700" Szer="17.430" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="156" Miasto="Kruszwica" Dl="52.680" Szer="18.299" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="157" Miasto="Krynica" Dl="49.419" Szer="20.959" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="158" Miasto="Krzeszowice" Dl="50.130" Szer="19.630" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="159" Miasto="Kudowa-Zdrój" Dl="50.429" Szer="16.229" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="160" Miasto="Kutno" Dl="52.240" Szer="19.360" ID_woj="5" Wojewodztwo="£ódzkie" />
+<row ID="161" Miasto="Kwidzyn" Dl="53.740" Szer="18.930" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="162" Miasto="Lêbork" Dl="54.549" Szer="17.750" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="163" Miasto="Ledziny" Dl="50.130" Szer="19.059" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="164" Miasto="Legionowo" Dl="52.409" Szer="20.920" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="165" Miasto="Legnica" Dl="51.209" Szer="16.159" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="166" Miasto="Leszno" Dl="51.849" Szer="16.570" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="167" Miasto="Le¿ajsk" Dl="50.259" Szer="22.420" ID_woj="9" Wojewodztwo="Podkarpackie" />
+<row ID="168" Miasto="Libi¹¿" Dl="50.100" Szer="19.290" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="169" Miasto="Lidzbark Warmiñski" Dl="54.139" Szer="20.590" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="170" Miasto="Limanowa" Dl="49.709" Szer="20.419" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="171" Miasto="Lipno" Dl="52.839" Szer="19.169" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="172" Miasto="Lobez" Dl="53.640" Szer="15.620" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="173" Miasto="Lubaczów" Dl="50.160" Szer="23.119" ID_woj="9" Wojewodztwo="Podkarpackie" />
+<row ID="174" Miasto="Lubañ" Dl="51.119" Szer="15.280" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="175" Miasto="Lubartów" Dl="51.459" Szer="22.610" ID_woj="3" Wojewodztwo="Lubelskie" />
+<row ID="176" Miasto="Lubawa" Dl="53.500" Szer="19.749" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="177" Miasto="Lubin" Dl="51.399" Szer="16.200" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="178" Miasto="Lublin" Dl="51.240" Szer="22.570" ID_woj="3" Wojewodztwo="Lubelskie" />
+<row ID="179" Miasto="Lubliniec" Dl="50.669" Szer="18.689" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="180" Miasto="Luboñ" Dl="52.339" Szer="16.870" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="181" Miasto="Lubsko" Dl="51.790" Szer="14.960" ID_woj="4" Wojewodztwo="Lubuskie" />
+<row ID="182" Miasto="Lwówek Œl¹ski" Dl="51.110" Szer="15.600" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="183" Miasto="Lwowek Slaski" Dl="51.110" Szer="15.600" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="184" Miasto="£añcut" Dl="50.069" Szer="22.229" ID_woj="9" Wojewodztwo="Podkarpackie" />
+<row ID="185" Miasto="£apy" Dl="52.989" Szer="22.890" ID_woj="10" Wojewodztwo="Podlaskie" />
+<row ID="186" Miasto="£ask" Dl="51.600" Szer="19.140" ID_woj="5" Wojewodztwo="£ódzkie" />
+<row ID="187" Miasto="£aziska Gorne" Dl="50.170" Szer="18.779" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="188" Miasto="£êczna" Dl="51.310" Szer="22.870" ID_woj="3" Wojewodztwo="Lubelskie" />
+<row ID="189" Miasto="£êczyca" Dl="52.069" Szer="19.199" ID_woj="5" Wojewodztwo="£ódzkie" />
+<row ID="190" Miasto="£ódŸ" Dl="51.770" Szer="19.459" ID_woj="5" Wojewodztwo="£ódzkie" />
+<row ID="191" Miasto="£omianki" Dl="52.349" Szer="20.889" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="192" Miasto="£om¿a" Dl="53.180" Szer="22.070" ID_woj="10" Wojewodztwo="Podlaskie" />
+<row ID="193" Miasto="£uków" Dl="51.940" Szer="22.390" ID_woj="3" Wojewodztwo="Lubelskie" />
+<row ID="194" Miasto="Maków Mazowiecki" Dl="52.860" Szer="21.100" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="195" Miasto="Malbork" Dl="54.040" Szer="19.040" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="196" Miasto="Marki" Dl="52.329" Szer="21.110" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="197" Miasto="Miastko" Dl="54.000" Szer="16.969" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="198" Miasto="Miechów" Dl="50.360" Szer="20.019" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="199" Miasto="Miedzychod" Dl="52.610" Szer="15.899" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="200" Miasto="Miedzyrzec Podlaski" Dl="51.990" Szer="22.780" ID_woj="3" Wojewodztwo="Lubelskie" />
+<row ID="201" Miasto="Miedzyrzecz" Dl="52.450" Szer="15.569" ID_woj="4" Wojewodztwo="Lubuskie" />
+<row ID="202" Miasto="Mielec" Dl="50.290" Szer="21.430" ID_woj="9" Wojewodztwo="Podkarpackie" />
+<row ID="203" Miasto="Mikolów" Dl="50.230" Szer="18.969" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="204" Miasto="Milanówek" Dl="52.130" Szer="20.659" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="205" Miasto="Milicz" Dl="51.530" Szer="17.270" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="206" Miasto="Miñsk Mazowiecki" Dl="52.179" Szer="21.559" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="207" Miasto="M³awa" Dl="53.120" Szer="20.360" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="208" Miasto="Mogilno" Dl="52.650" Szer="17.960" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="209" Miasto="Moñki" Dl="53.400" Szer="22.780" ID_woj="10" Wojewodztwo="Podlaskie" />
+<row ID="210" Miasto="Mor¹g" Dl="53.919" Szer="19.930" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="211" Miasto="Mosina" Dl="52.259" Szer="16.840" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="212" Miasto="Mr¹gowo" Dl="53.880" Szer="21.300" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="213" Miasto="Murowana Goœlina" Dl="52.580" Szer="17.010" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="214" Miasto="Myœlenice" Dl="49.839" Szer="19.939" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="215" Miasto="Myœliborz" Dl="52.929" Szer="14.869" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="216" Miasto="Mys³owice" Dl="50.240" Szer="19.140" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="217" Miasto="Myszków" Dl="50.580" Szer="19.319" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="218" Miasto="Nak³o nad Notecia" Dl="53.139" Szer="17.599" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="219" Miasto="Namys³ów" Dl="51.079" Szer="17.719" ID_woj="8" Wojewodztwo="Opolskie" />
+<row ID="220" Miasto="Nidzica" Dl="53.369" Szer="20.429" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="221" Miasto="Nisko" Dl="50.529" Szer="22.139" ID_woj="9" Wojewodztwo="Podkarpackie" />
+<row ID="222" Miasto="Nowa Dêba" Dl="50.439" Szer="21.759" ID_woj="9" Wojewodztwo="Podkarpackie" />
+<row ID="223" Miasto="Nowa Ruda" Dl="50.590" Szer="16.500" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="224" Miasto="Nowa Sól" Dl="51.809" Szer="15.709" ID_woj="4" Wojewodztwo="Lubuskie" />
+<row ID="225" Miasto="Nowe Miasto Lubawskie" Dl="53.430" Szer="19.590" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="226" Miasto="Nowogard" Dl="53.660" Szer="15.109" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="227" Miasto="Nowy Dwór Gdañski" Dl="54.220" Szer="19.120" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="228" Miasto="Nowy Dwór Mazowiecki" Dl="52.429" Szer="20.709" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="229" Miasto="Nowy S¹cz" Dl="49.630" Szer="20.699" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="230" Miasto="Nowy Targ" Dl="49.489" Szer="20.030" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="231" Miasto="Nowy Tomyœl" Dl="52.310" Szer="16.120" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="232" Miasto="Nysa" Dl="50.479" Szer="17.339" ID_woj="8" Wojewodztwo="Opolskie" />
+<row ID="233" Miasto="Oborniki" Dl="52.650" Szer="16.809" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="234" Miasto="O³awa" Dl="50.940" Szer="17.299" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="235" Miasto="Olecko" Dl="54.040" Szer="22.509" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="236" Miasto="Oleœnica" Dl="51.209" Szer="17.379" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="237" Miasto="Olesno" Dl="50.889" Szer="18.409" ID_woj="8" Wojewodztwo="Opolskie" />
+<row ID="238" Miasto="Olkusz" Dl="50.279" Szer="19.549" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="239" Miasto="Olsztyn" Dl="53.779" Szer="20.489" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="240" Miasto="Opalenica" Dl="52.310" Szer="16.399" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="241" Miasto="Opoczno" Dl="51.379" Szer="20.280" ID_woj="5" Wojewodztwo="£ódzkie" />
+<row ID="242" Miasto="Opole" Dl="50.679" Szer="17.940" ID_woj="8" Wojewodztwo="Opolskie" />
+<row ID="243" Miasto="Opole Lubelskie" Dl="51.149" Szer="21.969" ID_woj="3" Wojewodztwo="Lubelskie" />
+<row ID="244" Miasto="Orneta" Dl="54.119" Szer="20.129" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="245" Miasto="Orzesze" Dl="50.160" Szer="18.779" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="246" Miasto="Ostróda" Dl="53.710" Szer="19.959" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="247" Miasto="Ostro³êka" Dl="53.090" Szer="21.569" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="248" Miasto="Ostrów Mazowiecki" Dl="52.799" Szer="21.900" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="249" Miasto="Ostrów Wielkopolski" Dl="51.660" Szer="17.799" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="250" Miasto="Ostrowiec Œwiêtokrzyski" Dl="50.950" Szer="21.389" ID_woj="13" Wojewodztwo="Œwiêtokrzyskie" />
+<row ID="251" Miasto="Ostrzeszów" Dl="51.419" Szer="17.950" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="252" Miasto="Oœwiecim" Dl="50.039" Szer="19.259" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="253" Miasto="Otwock" Dl="52.109" Szer="21.280" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="254" Miasto="Ozimek" Dl="50.689" Szer="18.219" ID_woj="8" Wojewodztwo="Opolskie" />
+<row ID="255" Miasto="Ozorków" Dl="51.969" Szer="19.290" ID_woj="5" Wojewodztwo="£ódzkie" />
+<row ID="256" Miasto="Pabianice" Dl="51.669" Szer="19.350" ID_woj="5" Wojewodztwo="£ódzkie" />
+<row ID="257" Miasto="Parczew" Dl="51.639" Szer="22.900" ID_woj="3" Wojewodztwo="Lubelskie" />
+<row ID="258" Miasto="Pas³êk" Dl="54.069" Szer="19.659" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="259" Miasto="Piaseczno" Dl="52.069" Szer="21.020" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="260" Miasto="Piastów" Dl="52.209" Szer="20.920" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="261" Miasto="Piekary Œl¹skie" Dl="50.400" Szer="18.959" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="262" Miasto="Pieszyce" Dl="50.720" Szer="16.590" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="263" Miasto="Pi³a" Dl="53.149" Szer="16.739" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="264" Miasto="Piñczów" Dl="50.539" Szer="20.529" ID_woj="13" Wojewodztwo="Œwiêtokrzyskie" />
+<row ID="265" Miasto="Pionki" Dl="51.490" Szer="21.459" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="266" Miasto="Piotrków Trybunalski" Dl="51.409" Szer="19.700" ID_woj="5" Wojewodztwo="£ódzkie" />
+<row ID="267" Miasto="Pisz" Dl="53.630" Szer="21.799" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="268" Miasto="Pleszew" Dl="51.909" Szer="17.779" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="269" Miasto="P³ock" Dl="52.550" Szer="19.700" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="270" Miasto="P³onsk" Dl="52.629" Szer="20.379" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="271" Miasto="Polaniec" Dl="50.429" Szer="21.280" ID_woj="13" Wojewodztwo="Œwiêtokrzyskie" />
+<row ID="272" Miasto="Polczyn-Zdrój" Dl="53.770" Szer="16.100" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="273" Miasto="Police" Dl="53.549" Szer="14.559" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="274" Miasto="Polkowice" Dl="51.500" Szer="16.049" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="275" Miasto="Poniatowa" Dl="51.180" Szer="22.120" ID_woj="3" Wojewodztwo="Lubelskie" />
+<row ID="276" Miasto="Porêba" Dl="50.489" Szer="19.339" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="277" Miasto="Poznañ" Dl="52.399" Szer="16.900" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="278" Miasto="Prudnik" Dl="50.330" Szer="17.569" ID_woj="8" Wojewodztwo="Opolskie" />
+<row ID="279" Miasto="Pruszcz Gdañski" Dl="50.330" Szer="17.569" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="280" Miasto="Pruszków" Dl="52.220" Szer="20.819" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="281" Miasto="Przasnysz" Dl="53.010" Szer="20.879" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="282" Miasto="Przemyœl" Dl="49.790" Szer="22.780" ID_woj="9" Wojewodztwo="Podkarpackie" />
+<row ID="283" Miasto="Przeworsk" Dl="50.069" Szer="22.500" ID_woj="9" Wojewodztwo="Podkarpackie" />
+<row ID="284" Miasto="Pszczyna" Dl="49.979" Szer="18.950" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="285" Miasto="Pszów" Dl="50.039" Szer="18.400" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="286" Miasto="Puck" Dl="54.709" Szer="18.400" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="287" Miasto="Pu³awy" Dl="51.430" Szer="21.980" ID_woj="3" Wojewodztwo="Lubelskie" />
+<row ID="288" Miasto="Pu³tusk" Dl="52.710" Szer="21.089" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="289" Miasto="Pyrzyce" Dl="53.139" Szer="14.879" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="290" Miasto="Pyskowice" Dl="50.410" Szer="18.620" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="291" Miasto="Rabka" Dl="49.619" Szer="19.939" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="292" Miasto="Raciborz" Dl="50.090" Szer="18.219" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="293" Miasto="Radlin" Dl="50.039" Szer="18.459" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="294" Miasto="Radom" Dl="51.399" Szer="21.159" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="295" Miasto="Radomsko" Dl="51.069" Szer="19.440" ID_woj="5" Wojewodztwo="£ódzkie" />
+<row ID="296" Miasto="Radzionków" Dl="50.390" Szer="18.889" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="297" Miasto="Radzyn Podlaski" Dl="51.790" Szer="22.620" ID_woj="3" Wojewodztwo="Lubelskie" />
+<row ID="298" Miasto="Rawa Mazowiecka" Dl="51.770" Szer="20.260" ID_woj="5" Wojewodztwo="£ódzkie" />
+<row ID="299" Miasto="Rawicz" Dl="51.609" Szer="16.860" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="300" Miasto="Reda" Dl="54.620" Szer="18.340" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="301" Miasto="Rogo¿no" Dl="52.750" Szer="16.979" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="302" Miasto="Ropczyce" Dl="50.069" Szer="21.749" ID_woj="9" Wojewodztwo="Podkarpackie" />
+<row ID="303" Miasto="Ruda Œl¹ska" Dl="50.299" Szer="18.880" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="304" Miasto="Rumia" Dl="54.590" Szer="18.370" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="305" Miasto="Rybnik" Dl="50.100" Szer="18.549" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="306" Miasto="Rydultowy" Dl="50.069" Szer="18.429" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="307" Miasto="Ryki" Dl="51.639" Szer="21.929" ID_woj="3" Wojewodztwo="Lubelskie" />
+<row ID="308" Miasto="Rypin" Dl="53.069" Szer="19.410" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="309" Miasto="Rzeszów" Dl="50.049" Szer="21.999" ID_woj="9" Wojewodztwo="Podkarpackie" />
+<row ID="310" Miasto="Sandomierz" Dl="50.689" Szer="21.740" ID_woj="13" Wojewodztwo="Œwiêtokrzyskie" />
+<row ID="311" Miasto="Sanok" Dl="49.570" Szer="22.209" ID_woj="9" Wojewodztwo="Podkarpackie" />
+<row ID="312" Miasto="Sêpólno Krajeñskie" Dl="53.449" Szer="17.530" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="313" Miasto="Siedlce" Dl="52.169" Szer="22.280" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="314" Miasto="Siemianowice Œl¹skie" Dl="50.330" Szer="19.049" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="315" Miasto="Siemiatycze" Dl="52.419" Szer="22.870" ID_woj="10" Wojewodztwo="Podlaskie" />
+<row ID="316" Miasto="Sieradz" Dl="51.600" Szer="18.740" ID_woj="5" Wojewodztwo="£ódzkie" />
+<row ID="317" Miasto="Sierpc" Dl="52.860" Szer="19.650" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="318" Miasto="Skarzysko-Kamienna" Dl="51.119" Szer="20.879" ID_woj="13" Wojewodztwo="Œwiêtokrzyskie" />
+<row ID="319" Miasto="Skawina" Dl="49.979" Szer="19.830" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="320" Miasto="Skierniewice" Dl="51.959" Szer="20.139" ID_woj="5" Wojewodztwo="£ódzkie" />
+<row ID="321" Miasto="Skoczów" Dl="49.800" Szer="18.799" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="322" Miasto="Skwierzyna" Dl="52.589" Szer="15.489" ID_woj="4" Wojewodztwo="Lubuskie" />
+<row ID="323" Miasto="S³awno" Dl="54.349" Szer="16.670" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="324" Miasto="S³ubice" Dl="52.359" Szer="14.569" ID_woj="4" Wojewodztwo="Lubuskie" />
+<row ID="325" Miasto="S³upca" Dl="52.290" Szer="17.879" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="326" Miasto="S³upsk" Dl="54.470" Szer="17.019" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="327" Miasto="Sochaczew" Dl="52.230" Szer="20.229" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="328" Miasto="Sokó³ka" Dl="53.400" Szer="23.500" ID_woj="10" Wojewodztwo="Podlaskie" />
+<row ID="329" Miasto="Soko³ow Podlaski" Dl="52.409" Szer="22.239" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="330" Miasto="Solec Kujawski" Dl="53.069" Szer="18.230" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="331" Miasto="Sopot" Dl="54.439" Szer="18.559" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="332" Miasto="Sosnowiec" Dl="50.279" Szer="19.120" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="333" Miasto="Stalowa Wola" Dl="50.570" Szer="22.049" ID_woj="9" Wojewodztwo="Podkarpackie" />
+<row ID="334" Miasto="Starachowice" Dl="51.060" Szer="21.070" ID_woj="13" Wojewodztwo="Œwiêtokrzyskie" />
+<row ID="335" Miasto="Stargard Szczeciñski" Dl="53.340" Szer="15.020" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="336" Miasto="Starogard Gdañski" Dl="53.970" Szer="18.520" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="337" Miasto="Stary S¹cz" Dl="49.570" Szer="20.640" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="338" Miasto="Staszów" Dl="50.560" Szer="21.180" ID_woj="13" Wojewodztwo="Œwiêtokrzyskie" />
+<row ID="339" Miasto="Strzegom" Dl="50.959" Szer="16.350" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="340" Miasto="Strzelce Krajenskie" Dl="52.869" Szer="15.529" ID_woj="4" Wojewodztwo="Lubuskie" />
+<row ID="341" Miasto="Strzelce Opolskie" Dl="50.520" Szer="18.299" ID_woj="8" Wojewodztwo="Opolskie" />
+<row ID="342" Miasto="Strzelin" Dl="50.780" Szer="17.069" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="343" Miasto="Sucha Beskidzka" Dl="49.750" Szer="19.590" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="344" Miasto="Suchedniów" Dl="51.069" Szer="20.830" ID_woj="13" Wojewodztwo="Œwiêtokrzyskie" />
+<row ID="345" Miasto="Sulechów" Dl="52.090" Szer="15.620" ID_woj="4" Wojewodztwo="Lubuskie" />
+<row ID="346" Miasto="Sulecin" Dl="52.450" Szer="15.109" ID_woj="4" Wojewodztwo="Lubuskie" />
+<row ID="347" Miasto="Sulejówek" Dl="52.250" Szer="21.270" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="348" Miasto="Suwa³ki" Dl="54.109" Szer="22.940" ID_woj="10" Wojewodztwo="Podlaskie" />
+<row ID="349" Miasto="Swarzêdz" Dl="52.409" Szer="17.069" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="350" Miasto="Syców" Dl="51.300" Szer="17.709" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="351" Miasto="Szamotu³y" Dl="52.610" Szer="16.580" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="352" Miasto="Szczecin" Dl="53.430" Szer="14.529" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="353" Miasto="Szczecinek" Dl="53.710" Szer="16.689" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="354" Miasto="Szczytno" Dl="53.559" Szer="20.990" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="355" Miasto="Szprotawa" Dl="51.569" Szer="15.520" ID_woj="4" Wojewodztwo="Lubuskie" />
+<row ID="356" Miasto="Sztum" Dl="53.849" Szer="18.959" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="357" Miasto="Szubin" Dl="53.010" Szer="17.719" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="358" Miasto="Szyd³owiec" Dl="51.229" Szer="20.859" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="359" Miasto="Œrem" Dl="52.090" Szer="17.010" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="360" Miasto="Œroda Wielkopolska" Dl="52.220" Szer="17.270" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="361" Miasto="Œwidnica" Dl="50.849" Szer="16.489" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="362" Miasto="Œwidnik" Dl="51.219" Szer="22.790" ID_woj="3" Wojewodztwo="Lubelskie" />
+<row ID="363" Miasto="Œwidwin" Dl="53.770" Szer="15.779" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="364" Miasto="Œwiebodzice" Dl="50.860" Szer="16.329" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="365" Miasto="Œwiebodzin" Dl="52.259" Szer="15.529" ID_woj="4" Wojewodztwo="Lubuskie" />
+<row ID="366" Miasto="Œwiecie" Dl="53.400" Szer="18.440" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="367" Miasto="Œwiêtoch³owice" Dl="50.290" Szer="18.940" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="368" Miasto="Œwinoujœcie" Dl="53.909" Szer="14.249" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="369" Miasto="Tarnobrzeg" Dl="50.590" Szer="21.680" ID_woj="9" Wojewodztwo="Podkarpackie" />
+<row ID="370" Miasto="Tarnów" Dl="50.009" Szer="20.990" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="371" Miasto="Tarnowskie Góry" Dl="50.459" Szer="18.860" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="372" Miasto="Tczew" Dl="54.099" Szer="18.779" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="373" Miasto="Tomaszów Lubelski" Dl="50.459" Szer="23.419" ID_woj="3" Wojewodztwo="Lubelskie" />
+<row ID="374" Miasto="Tomaszów Mazowiecki" Dl="51.540" Szer="20.030" ID_woj="5" Wojewodztwo="£ódzkie" />
+<row ID="375" Miasto="Toruñ" Dl="53.020" Szer="18.609" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="376" Miasto="Trzcianka" Dl="53.040" Szer="16.459" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="377" Miasto="Trzebiatów" Dl="54.069" Szer="15.260" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="378" Miasto="Trzebinia" Dl="50.160" Szer="19.450" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="379" Miasto="Trzebnica" Dl="51.310" Szer="17.060" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="380" Miasto="Tuchola" Dl="53.589" Szer="17.850" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="381" Miasto="Turek" Dl="52.020" Szer="18.479" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="382" Miasto="Tychy" Dl="50.160" Szer="19.000" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="383" Miasto="Ustka" Dl="54.580" Szer="16.850" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="384" Miasto="Ustroñ" Dl="49.719" Szer="18.799" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="385" Miasto="Ustrzyki Dolne" Dl="49.430" Szer="22.610" ID_woj="9" Wojewodztwo="Podkarpackie" />
+<row ID="386" Miasto="Wabrzezno" Dl="53.280" Szer="18.940" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="387" Miasto="Wadowice" Dl="49.879" Szer="19.489" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="388" Miasto="W¹growiec" Dl="52.810" Szer="17.200" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="389" Miasto="Wa³brzych" Dl="50.780" Szer="16.280" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="390" Miasto="Wa³cz" Dl="53.270" Szer="16.470" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="391" Miasto="Warka" Dl="51.799" Szer="21.190" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="392" Miasto="Warszawa" Dl="52.259" Szer="21.020" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="393" Miasto="Wêgorzewo" Dl="54.220" Szer="21.749" ID_woj="14" Wojewodztwo="Warmiñsko-Mazurskie" />
+<row ID="394" Miasto="Wêgrów" Dl="52.399" Szer="22.010" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="395" Miasto="Wejherowo" Dl="54.599" Szer="18.230" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="396" Miasto="Weso³a" Dl="52.259" Szer="21.200" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="397" Miasto="Wieliczka" Dl="49.990" Szer="20.090" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="398" Miasto="Wieluñ" Dl="51.219" Szer="18.569" ID_woj="5" Wojewodztwo="£ódzkie" />
+<row ID="399" Miasto="Wis³a" Dl="49.659" Szer="18.870" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="400" Miasto="W³adys³awowo" Dl="54.789" Szer="18.400" ID_woj="11" Wojewodztwo="Pomorskie" />
+<row ID="401" Miasto="W³oc³awek" Dl="52.659" Szer="19.059" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="402" Miasto="W³odawa" Dl="51.549" Szer="23.559" ID_woj="3" Wojewodztwo="Lubelskie" />
+<row ID="403" Miasto="W³oszczowa" Dl="50.860" Szer="19.969" ID_woj="13" Wojewodztwo="Œwiêtokrzyskie" />
+<row ID="404" Miasto="Wodzis³aw Œl¹ski" Dl="50.039" Szer="18.400" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="405" Miasto="Wojkowice" Dl="50.360" Szer="19.010" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="406" Miasto="Wolbrom" Dl="50.390" Szer="19.770" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="407" Miasto="Wolomin" Dl="52.339" Szer="21.229" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="408" Miasto="Wo³ów" Dl="51.329" Szer="16.629" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="409" Miasto="Wolsztyn" Dl="52.109" Szer="16.109" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="410" Miasto="Wroc³aw" Dl="51.110" Szer="17.030" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="411" Miasto="Wronki" Dl="52.700" Szer="16.360" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="412" Miasto="Wrzeœnia" Dl="52.320" Szer="17.579" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="413" Miasto="Wschowa" Dl="51.799" Szer="16.319" ID_woj="4" Wojewodztwo="Lubuskie" />
+<row ID="414" Miasto="Wysokie Mazowieckie" Dl="52.910" Szer="22.509" ID_woj="10" Wojewodztwo="Podlaskie" />
+<row ID="415" Miasto="Wyszków" Dl="52.599" Szer="21.449" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="416" Miasto="Z¹bkowice Œl¹skie" Dl="50.590" Szer="16.819" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="417" Miasto="Zabrze" Dl="50.299" Szer="18.779" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="418" Miasto="Zakopane" Dl="49.289" Szer="19.959" ID_woj="6" Wojewodztwo="Ma³opolskie" />
+<row ID="419" Miasto="Zambrów" Dl="52.980" Szer="22.239" ID_woj="10" Wojewodztwo="Podlaskie" />
+<row ID="420" Miasto="Zamoœæ" Dl="50.729" Szer="23.260" ID_woj="3" Wojewodztwo="Lubelskie" />
+<row ID="421" Miasto="Zawadzkie" Dl="50.619" Szer="18.459" ID_woj="8" Wojewodztwo="Opolskie" />
+<row ID="422" Miasto="Zawiercie" Dl="50.489" Szer="19.420" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="423" Miasto="Zduñska Wola" Dl="51.609" Szer="18.940" ID_woj="5" Wojewodztwo="£ódzkie" />
+<row ID="424" Miasto="Zdzieszowice" Dl="50.419" Szer="18.120" ID_woj="8" Wojewodztwo="Opolskie" />
+<row ID="425" Miasto="Zgierz" Dl="51.869" Szer="19.410" ID_woj="5" Wojewodztwo="£ódzkie" />
+<row ID="426" Miasto="Zgorzelec" Dl="51.149" Szer="15.009" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="427" Miasto="Ziêbice" Dl="50.599" Szer="17.050" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="428" Miasto="Zielona Gora" Dl="51.940" Szer="15.489" ID_woj="4" Wojewodztwo="Lubuskie" />
+<row ID="429" Miasto="Zielonka" Dl="52.299" Szer="21.169" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="430" Miasto="Z³ocieniec" Dl="53.529" Szer="16.000" ID_woj="16" Wojewodztwo="Zachodnio-Pomorskie" />
+<row ID="431" Miasto="Z³otoryja" Dl="51.119" Szer="15.909" ID_woj="1" Wojewodztwo="DolnoŒl¹skie" />
+<row ID="432" Miasto="Z³otów" Dl="53.359" Szer="17.030" ID_woj="15" Wojewodztwo="Wielkopolskie" />
+<row ID="433" Miasto="¯abki" Dl="52.290" Szer="21.110" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="434" Miasto="¯agañ" Dl="51.619" Szer="15.299" ID_woj="4" Wojewodztwo="Lubuskie" />
+<row ID="435" Miasto="¯ary" Dl="51.649" Szer="15.130" ID_woj="4" Wojewodztwo="Lubuskie" />
+<row ID="436" Miasto="¯nin" Dl="52.850" Szer="17.709" ID_woj="2" Wojewodztwo="Kujawsko-Pomorskie" />
+<row ID="437" Miasto="¯ory" Dl="50.069" Szer="18.689" ID_woj="12" Wojewodztwo="Œl¹skie" />
+<row ID="438" Miasto="¯ychlin" Dl="52.250" Szer="19.620" ID_woj="5" Wojewodztwo="£ódzkie" />
+<row ID="439" Miasto="¯yrardów" Dl="52.060" Szer="20.450" ID_woj="7" Wojewodztwo="Mazowieckie" />
+<row ID="440" Miasto="¯ywiec" Dl="49.870" Szer="19.180" ID_woj="12" Wojewodztwo="Œl¹skie" />

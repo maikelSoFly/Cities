@@ -1,0 +1,5 @@
+/Users/maikel/Projects/Cities_console/Cities_console/obj/x86/Debug/Cities_console.csproj.CoreCompileInputs.cache
+/Users/maikel/Projects/Cities_console/Cities_console/bin/Debug/Cities_console.exe
+/Users/maikel/Projects/Cities_console/Cities_console/bin/Debug/Cities_console.pdb
+/Users/maikel/Projects/Cities_console/Cities_console/obj/x86/Debug/Cities_console.exe
+/Users/maikel/Projects/Cities_console/Cities_console/obj/x86/Debug/Cities_console.pdb
