@@ -56,13 +56,14 @@ namespace Cities_console {
                 //data.addCity(new City("Sosnowiec", 2, 30.4, 123.3, reg2));
 
                 
-                Console.WriteLine(String.Format("All regions:"));
-                foreach (KeyValuePair<int, Region> pair in data.getRegions()) {
-                    Console.WriteLine(String.Format("\t{0}. {1}", pair.Key, pair.Value.getName()));
-                }
-
 
                 if(data.getRegions().Count != 0 && data.getCities().Count != 0) {
+                    Console.WriteLine(String.Format("All regions:"));
+                    foreach (KeyValuePair<int, Region> pair in data.getRegions()) {
+                        Console.WriteLine(String.Format("\t{0}. {1}", pair.Key, pair.Value.getName()));
+                    }
+
+
                     List<City> citiesOfRegion = null;
                     int regID = 0;
 
