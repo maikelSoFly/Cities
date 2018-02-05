@@ -22,7 +22,7 @@ namespace Cities_console {
             this.dbProvider = provider;
             this.persistSecurityInfo = securityInfo;
             this.conn = new OleDbConnection();
-            this.connectionString = @"Provider=" + this.dbProvider +
+            this.connectionString = "Provider=" + this.dbProvider +
                                     "Data Source=" + this.dataSourcePath +
                                     "Persist Security Info=" + this.persistSecurityInfo +
                                     "Jet OLEDB:Database Password=" + this.password;
