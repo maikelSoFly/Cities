@@ -17,18 +17,19 @@ namespace Cities_console
 
         public DatabaseConnection(String sourcePath,
                                   String password,
-                                  String provider = "Microsoft.Jet.OLEDB.4.0;",
-                                  String securityInfo = "True;")
+                                  String provider = "Microsoft.Jet.OLEDB.4.0",
+                                  String securityInfo = "True")
         {
             this.dataSourcePath = sourcePath;
             this.password = password;
             this.dbProvider = provider;
             this.persistSecurityInfo = securityInfo;
             this.conn = new OleDbConnection();
-            this.connectionString = @"Provider=" + this.dbProvider +
-                                    "Data Source=" + this.dataSourcePath +
-                                    "Persist Security Info=" + this.persistSecurityInfo +
-                                    "Jet OLEDB:Database Password=" + this.password;
+            this.connectionString = @"Provider=" + this.dbProvider +";"+
+                                    "Data Source=" + this.dataSourcePath +";"+
+                                    "Persist Security Info=" + this.persistSecurityInfo +";"+
+                                    "Jet OLEDB:Database Password=" + this.password +";";
+            Console.WriteLine(this.connectionString);
             conn.ConnectionString = this.connectionString;
         }
 
