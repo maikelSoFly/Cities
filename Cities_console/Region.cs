@@ -11,5 +11,14 @@ namespace Cities_console
             this.name = name;
             this.uid = uid;
         }
+
+        public int getUID() {
+            return uid;
+        }
+
+        public String getName()
+        {
+            return name;
+        }
     }
 }

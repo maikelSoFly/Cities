@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data;
 using System.Data.OleDb;
+using System.Collections.Generic;
 
 
 namespace Cities_console
@@ -40,14 +41,21 @@ namespace Cities_console
                         Double lat = (Double)row["Szer"];
                         int regionID = (int)row["ID_woj"];
 
-                        City city = new City(name, lon, lat, data.getRegion(regionID));
+                        City city = new City(name, cityID, lon, lat, data.getRegion(regionID));
                         data.addCity(city);
                     }
                 }
 
                 //TODO do smth with cities and regions in 'data'.
-            }
+                //Searching for cities in given region.
+                int userGivenRegionID = 3;
+                List<City> citiesOfRegion = data.getCitiesForRegion(userGivenRegionID);
+                foreach(City city in citiesOfRegion) {
+                    Console.WriteLine(city.getName());
+                }
 
+
+            }
         }
     }
 }
