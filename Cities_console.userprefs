@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{0C212499-E933-49A4-B3E5-E117FF1F922A}|Default">
   <MonoDevelop.Ide.ItemProperties.Cities__console PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Cities_console/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Cities_console/DatabaseConnection.cs">
     <Files>
       <File FileName="Cities_console/Program.cs" Line="12" Column="13" />
       <File FileName="Cities_console/DatabaseConnection.cs" Line="46" Column="9" />
