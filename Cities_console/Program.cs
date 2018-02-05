@@ -10,8 +10,9 @@ namespace Cities_console {
         public static void Main(string[] args) {
             Data data = new Data();
             String path = "./db/Miasta.mdb";
+            String password = "";
 
-            DatabaseConnection dbConn = new DatabaseConnection(path, "");
+            DatabaseConnection dbConn = new DatabaseConnection(path, password);
             if (dbConn.Connect()) {
                 Console.WriteLine("DB connection established.");
 
