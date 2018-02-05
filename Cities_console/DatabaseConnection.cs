@@ -38,7 +38,7 @@ namespace Cities_console
             }
             catch(Exception e) {
                 if(e is InvalidOperationException) {
-                    Console.WriteLine("Connection is already opened.\n\t" + e.Message);
+                    Console.WriteLine("Connection FAILED after opening.\n\t" + e.Message);
                 }
                 else if(e is OleDbException) {
                     Console.WriteLine("Opening connection FAILED.\n\t" + e.Message);
