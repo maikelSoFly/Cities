@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data;
 using System.Data.OleDb;
 
 namespace Cities_console
@@ -29,20 +30,37 @@ namespace Cities_console
             conn.ConnectionString = this.connectionString;
         }
 
-        //public static void Main() {}
 
         public Boolean connect() {
             try {
-                
                 conn.Open();
-
+                return true;
             }
             catch(Exception e) {
                 Console.WriteLine("OleDB connection FAILED.\n\t" + e.Message);
-                return false;
             }
 
-            return true;
+            return false;
+        }
+
+
+        public DataTable execute(String queryCommand) {
+            OleDbCommand cmd = new OleDbCommand();
+            cmd.CommandText = queryCommand;
+
+            try
+            {
+                OleDbDataReader reader = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+
+                DataTable table = new DataTable();
+                table.Load(reader);
+                return table;
+            } 
+            catch(InvalidOperationException e) {
+                Console.WriteLine("Execution of command FAILED." + e.Message);
+            }
+
+            return null;
         }
 
     }
