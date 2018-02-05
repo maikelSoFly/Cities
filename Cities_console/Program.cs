@@ -81,7 +81,8 @@ namespace Cities_console
                 }
 
                 City selectedCity = citiesOfRegion[selectedCityIndex-1];
-                Console.WriteLine(String.Format("\nName: {0}, Longitude: {1}, Latitude: {2}, Region: {3}", selectedCity.getName(), 
+                Console.WriteLine(String.Format("\nName: {0}, Longitude: {1}, Latitude: {2}, Region: {3}", 
+                                                selectedCity.getName(), 
                                                 selectedCity.getLongitude(), 
                                                 selectedCity.getLatitude(), 
                                                 selectedCity.getRegion().getName()));
