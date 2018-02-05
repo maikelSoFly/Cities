@@ -65,7 +65,7 @@ namespace Cities_console
                 }
 
                 int selectedCityIndex = 0;
-                while (selectedCityIndex > 0 && selectedCityIndex <= citiesOfRegion.Count) {
+                while (!(selectedCityIndex > 0 && selectedCityIndex <= citiesOfRegion.Count)) {
                     selectedCityIndex = ReadLine<int>("Select region (int): ");
                 }
 
