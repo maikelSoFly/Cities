@@ -27,7 +27,13 @@ namespace Cities_console
 
         public void addCity(City city)
         {
-            citiesByRegion[city.getRegionUID()].Add(city);
+            if(citiesByRegion.ContainsKey(city.getRegionUID())) {
+                citiesByRegion[city.getRegionUID()].Add(city);
+            } else {
+                citiesByRegion[city.getRegionUID()] = new List<City>();
+                citiesByRegion[city.getRegionUID()].Add(city);
+            }
+
             cities.Add(city);
         }
 
