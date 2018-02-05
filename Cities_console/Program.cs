@@ -3,21 +3,27 @@ using System.Data;
 using System.Collections.Generic;
 
 
-namespace Cities_console {
-    class MainClass {
-        
-        public static void Main(string[] args) {
+namespace Cities_console
+{
+    class MainClass
+    {
+
+        public static void Main(string[] args)
+        {
             Data data = new Data();
             String path = "./db/Miasta.mdb";
             String password = "";
 
             DatabaseConnection dbConn = new DatabaseConnection(path, password);
-            if (dbConn.Connect()) {
+            if (dbConn.Connect())
+            {
                 Console.WriteLine("DB connection established.");
 
                 DataTable regionsTable = dbConn.Execute("SELECT * FROM `regions`");
-                if (regionsTable != null) {
-                    foreach(DataRow row in regionsTable.Rows) {
+                if (regionsTable != null)
+                {
+                    foreach (DataRow row in regionsTable.Rows)
+                    {
                         int regionID = (int)row["ID"];
                         String name = row["Wojewodztwo"].ToString();
                         Region region = new Region(name, regionID);
@@ -26,8 +32,10 @@ namespace Cities_console {
                 }
 
                 DataTable citiesTable = dbConn.Execute("SELECT * FROM `city`");
-                if (citiesTable != null) {
-                    foreach (DataRow row in citiesTable.Rows) {
+                if (citiesTable != null)
+                {
+                    foreach (DataRow row in citiesTable.Rows)
+                    {
                         int cityID = (int)row["ID"];
                         String name = row["Miasto"].ToString();
                         Double lon = (Double)row["Dl"];
@@ -43,7 +51,8 @@ namespace Cities_console {
                 //Searching for cities in the given region.
                 int userGivenRegionID = 3;
                 List<City> citiesOfRegion = data.getCitiesForRegion(userGivenRegionID);
-                foreach(City city in citiesOfRegion) {
+                foreach (City city in citiesOfRegion)
+                {
                     Console.WriteLine(city.getName());
                 }
 
