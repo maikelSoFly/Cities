@@ -16,18 +16,10 @@ namespace Cities_console {
         }
 
 
+        //MARK: - Setters.
         public void addRegion(int id, Region region) {
             regions.Add(id, region);
         }
-
-
-        public Region getRegion(int id) {
-            if (regions.ContainsKey(id)) {
-                return regions[id];
-            } 
-            else return null;
-        }
-
 
         public void addCity(City city) {
             citiesByRegion[city.getRegionUID()].Add(city);
@@ -35,7 +27,16 @@ namespace Cities_console {
         }
 
 
-        //MARK: - Getters
+        //MARK: - Getters.
+        public Region getRegion(int id)
+        {
+            if (regions.ContainsKey(id))
+            {
+                return regions[id];
+            }
+            else return null;
+        }
+
         public List<City> getCities() {
             return cities;
         }

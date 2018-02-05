@@ -19,6 +19,7 @@ namespace Cities_console {
         }
 
 
+        //MARK: - Getters.
         public int getUID() {
             return uid;
         }
