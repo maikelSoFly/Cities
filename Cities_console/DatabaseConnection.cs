@@ -13,7 +13,8 @@ namespace Cities_console {
         private OleDbConnection conn;
 
 
-        public DatabaseConnection(String sourcePath, String password, 
+        public DatabaseConnection(String sourcePath, 
+                                  String password, 
                                   String provider="Microsoft.Jet.OLEDB.4.0;", 
                                   String securityInfo="True;") {
             this.dataSourcePath = sourcePath;
