@@ -14,6 +14,7 @@ namespace Cities_console
             this.uid = uid;
         }
 
+
         //MARK: - Getters.
         public int getUID()
         {

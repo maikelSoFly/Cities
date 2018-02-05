@@ -19,6 +19,7 @@ namespace Cities_console
             {
                 Console.WriteLine("DB connection established.");
 
+                //MARK: - Parse regions from DB.
                 DataTable regionsTable = dbConn.Execute("SELECT * FROM `regions`");
                 if (regionsTable != null)
                 {
@@ -31,6 +32,7 @@ namespace Cities_console
                     }
                 }
 
+                //MARK: - Parse cities from DB.
                 DataTable citiesTable = dbConn.Execute("SELECT * FROM `city`");
                 if (citiesTable != null)
                 {
@@ -49,7 +51,7 @@ namespace Cities_console
 
                 //FIXME: - For tests only.
                 //Region reg1 = new Region("Małopolskie", 1);
-                //Region reg2 = new Region("Małopolskie", 2);
+                //Region reg2 = new Region("Śląskie", 2);
                 //data.addRegion(1, reg1);
                 //data.addRegion(2, reg2);
                 //data.addCity(new City("Kraków", 1, 33.4, 122.4, reg1));
@@ -61,13 +63,15 @@ namespace Cities_console
                 //Searching for cities in the given region.
 
                 List<City> citiesOfRegion = null;
+                int regID = 0;
 
                 while (citiesOfRegion == null)
                 {
-                    int regID = ReadLine<int>("Region id: ");
+                    regID = ReadLine<int>("Region id: ");
                     citiesOfRegion = data.getCitiesForRegion(regID);
                 }
 
+                Console.WriteLine(String.Format("\nRegion: {0}", data.getRegion(regID).getName()));
                 int i = 0;
                 foreach (City city in citiesOfRegion)
                 {
