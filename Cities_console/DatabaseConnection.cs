@@ -49,18 +49,25 @@ namespace Cities_console {
 
 
         public DataTable Execute(String queryCommand) {
-            OleDbCommand cmd = new OleDbCommand();
-            cmd.CommandText = queryCommand;
+            if (conn.State == ConnectionState.Open) {
 
-            try {
-                OleDbDataReader reader = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+                OleDbCommand cmd = conn.CreateCommand();
+                cmd.CommandText = queryCommand;
 
-                DataTable table = new DataTable();
-                table.Load(reader);
-                return table;
-            } 
-            catch(InvalidOperationException e) {
-                Console.WriteLine("Execution of command FAILED." + e.Message);
+                try {
+                    OleDbDataReader reader = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+
+                    DataTable table = new DataTable();
+                    table.Load(reader);
+                    return table;
+                }
+                catch (InvalidOperationException e) {
+                    Console.WriteLine("Execution of command FAILED." + e.Message);
+                }
+
+            }
+            else {
+                Console.WriteLine("Connection is not opened.");
             }
 
             return null;
