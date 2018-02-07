@@ -38,8 +38,8 @@ namespace Cities_console {
                        
                         int cityID = Int32.Parse(row["ID"].ToString());
                         String name = row["Miasto"].ToString();
-                        Double lon = double.Parse(row["Dl"].ToString(), CultureInfo.InvariantCulture);
-                        Double lat = double.Parse(row["Szer"].ToString(), CultureInfo.InvariantCulture);
+                        Double lon = Double.Parse(row["Dl"].ToString(), CultureInfo.InvariantCulture);
+                        Double lat = Double.Parse(row["Szer"].ToString(), CultureInfo.InvariantCulture);
                         int regionID = Int32.Parse(row["ID_woj"].ToString());
 
                         City city = new City(name, cityID, lon, lat, data.getRegion(regionID));
