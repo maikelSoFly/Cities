@@ -4,21 +4,16 @@ using System.Collections.Generic;
 using System.Globalization;
 
 
-namespace Cities_console
-{
+namespace Cities_console {
+    class MainClass {
 
-    class MainClass
-    {
-
-        public static void Main(string[] args)
-        {
+        public static void Main(string[] args) {
             Data data = new Data();
             String path = "C:/db/Miasta.mdb";
             String password = "";
 
             DatabaseConnection dbConn = new DatabaseConnection(path, password);
-            if (dbConn.Connect())
-            {
+            if (dbConn.Connect()) {
                 Console.WriteLine("DB connection established.");
 
                 Console.WriteLine("User tables:");
@@ -26,10 +21,9 @@ namespace Cities_console
 
                 //MARK: - Parse regions from DB.
                 DataTable regionsTable = dbConn.Execute("SELECT * FROM `Wojewodztwa`");
-                if (regionsTable != null)
-                {
-                    foreach (DataRow row in regionsTable.Rows)
-                    {
+                if (regionsTable != null) {
+                    foreach (DataRow row in regionsTable.Rows) {
+                        
                         int regionID = Int32.Parse(row["ID"].ToString());
                         String name = row["Wojewodztwo"].ToString();
                         Region region = new Region(name, regionID);
@@ -39,16 +33,13 @@ namespace Cities_console
 
                 //MARK: - Parse cities from DB.
                 DataTable citiesTable = dbConn.Execute("SELECT * FROM `Miasta`");
-                if (citiesTable != null)
-                {
-                    foreach (DataRow row in citiesTable.Rows)
-                    {
+                if (citiesTable != null) {
+                   foreach (DataRow row in citiesTable.Rows) {
+                       
                         int cityID = Int32.Parse(row["ID"].ToString());
                         String name = row["Miasto"].ToString();
                         Double lon = double.Parse(row["Dl"].ToString(), CultureInfo.InvariantCulture);
                         Double lat = double.Parse(row["Szer"].ToString(), CultureInfo.InvariantCulture);
-                        //Double lon = double.Parse(row["Dl"].ToString(), System.Globalization.NumberStyles.AllowDecimalPoint, System.Globalization.NumberFormatInfo.InvariantInfo);
-                        //Double lat = double.Parse(row["Szer"].ToString(), System.Globalization.NumberStyles.AllowDecimalPoint, System.Globalization.NumberFormatInfo.InvariantInfo);
                         int regionID = Int32.Parse(row["ID_woj"].ToString());
 
                         City city = new City(name, cityID, lon, lat, data.getRegion(regionID));
@@ -68,35 +59,30 @@ namespace Cities_console
 
 
 
-                if (data.getRegions().Count != 0 && data.getCities().Count != 0)
-                {
+                if (data.getRegions().Count != 0 && data.getCities().Count != 0) {
                     Console.WriteLine(String.Format("All regions:"));
-                    foreach (KeyValuePair<int, Region> pair in data.getRegions())
-                    {
+                    foreach (KeyValuePair<int, Region> pair in data.getRegions()) {
                         Console.WriteLine(String.Format("\t{0}. {1}", pair.Key, pair.Value.getName()));
                     }
 
-
+                    //TODO while
                     List<City> citiesOfRegion = null;
                     int regID = 0;
 
-                    while (citiesOfRegion == null)
-                    {
+                    while (citiesOfRegion == null) {
                         regID = ReadLine<int>("\nRegion id: ");
                         citiesOfRegion = data.getCitiesForRegion(regID);
                     }
 
                     Console.WriteLine(String.Format("\nRegion {0}:", data.getRegion(regID).getName()));
                     int i = 0;
-                    foreach (City city in citiesOfRegion)
-                    {
+                    foreach (City city in citiesOfRegion) {
                         i++;
                         Console.WriteLine(String.Format("\t{0}. {1}", i, city.getName()));
                     }
 
                     int selectedCityIndex = 0;
-                    while (!(selectedCityIndex > 0 && selectedCityIndex <= citiesOfRegion.Count))
-                    {
+                    while (!(selectedCityIndex > 0 && selectedCityIndex <= citiesOfRegion.Count)) {
                         selectedCityIndex = ReadLine<int>("\nSelect city (int): ");
                     }
 
@@ -107,8 +93,7 @@ namespace Cities_console
                                                     selectedCity.getLatitude(),
                                                     selectedCity.getRegion().getName()));
                 }
-                else
-                {
+                else {
                     Console.WriteLine("No data in cache.");
                 }
             }
@@ -119,18 +104,15 @@ namespace Cities_console
 
         //Read from stdin and cast to specified type.
         //  message - print info message about expected input.
-        static T ReadLine<T>(String message)
-        {
+        static T ReadLine<T>(String message) {
             Console.WriteLine(message);
-            try
-            {
+            try {
                 string line = Console.ReadLine();
                 T convertedValue = (T)Convert.ChangeType(line, typeof(T));
 
                 return convertedValue;
             }
-            catch (Exception e)
-            {
+            catch (Exception e) {
                 Console.WriteLine(e.Message);
             }
 
